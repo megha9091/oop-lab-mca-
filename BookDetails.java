@@ -50,20 +50,20 @@ public class BookDetails
         Scanner s=new Scanner(System.in); 
         System.out.println("enter literature book details");
         System.out.println("book name");
-        String b=s.next();
+        String b=s.nextLine();
         System.out.println("publisher");
-        String pub=s.next();
+        String pub=s.nextLine();
         System.out.println("Category");
-        String c=s.next();
+        String c=s.nextLine();
         Literature ob1=new Literature(pub,b,c);
 
         System.out.println("enter fiction book details");
         System.out.println("Book name");
-        String b1=s.next();
+        String b1=s.nextLine();
         System.out.println("Publisher");
-        String p1=s.next();
+        String p1=s.nextLine();
         System.out.println("category");
-        String c1=s.next();
+        String c1=s.nextLine();
         Fiction ob2=new Fiction(p1,b1,c1);
 
         System.out.println("\n** Literature Book**");
